@@ -1,4 +1,4 @@
-import 'package:brand_names/pages/home.dart';
+import 'package:band_names/pages/home.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

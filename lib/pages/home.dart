@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'package:brand_names/models/band.dart';
+import 'package:band_names/models/band.dart';
 
 class HomePage extends StatefulWidget {
   @override

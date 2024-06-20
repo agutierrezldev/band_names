@@ -1,4 +1,4 @@
-# brand_names
+# band_names
 
 A new Flutter project.
 
