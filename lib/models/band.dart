@@ -1,7 +1,4 @@
-
-
 class Band {
-
   String id;
   String name;
   int votes;
@@ -12,12 +9,11 @@ class Band {
     this.votes = 0,
   });
 
-  factory Band.fromMap( Map<String, dynamic> obj) {
+  factory Band.fromMap(Map<String, dynamic> obj) {
     return Band(
-      id: obj['id'],
-      name: obj['name'],
-      votes: obj['votes'],
+      id: obj.containsKey('id') ? obj['id'] : 'no-id',
+      name: obj.containsKey('name') ? obj['name'] : 'no-name',
+      votes: obj.containsKey('votes') ? obj['votes'] : 'no-votes',
     );
   }
-
 }
